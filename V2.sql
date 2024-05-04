@@ -1,8 +1,8 @@
 select *
   from residents;
 
-select r.first_name,
-       r.last_name,
+select r.firstname,
+       r.lastname,
        p.phone
   from residents r
   join phone p
